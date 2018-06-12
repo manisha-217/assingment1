@@ -1,0 +1,20 @@
+GIT: STARTING A REPOSITORY
+ git init
+ git status
+GIT: CONFIGRATION
+ git config--global user.name"firstName lastName"
+ git config--global user.email"your-email@email-provider.com"
+ git config--global color.ui true
+ git config--list
+GIT: STAGING FILES
+ git add <file-name>
+ git add <file-name> <another-file-name> <yet-another-file-name>
+ git add .
+ git add --all
+ git add -A
+GIT: COMMITING TO A REPOSITORY
+ git commit-m"add three file"
+GIT: PULLING AND PUSSING FROM AND TO REPOSITRIES
+ git remote add origin <link>
+ git push-u origin master
+ git pull  
