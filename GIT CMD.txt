@@ -18,3 +18,73 @@ GIT: PULLING AND PUSSING FROM AND TO REPOSITRIES
  git remote add origin <link>
  git push-u origin master
  git pull  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------
+
+
+
+
+#Q.1 leap year or not leap year
+x=int(input("enter the year"))
+if x%4==0:
+ print("the year is leap year")
+else:
+ print("the year is not leap year")
+ print("\n")
+
+#Q.2 dimesion of square and rectangle
+length=input("length=")
+breadth=input("breadth=")
+if length==breadth:
+ print("square")
+else: 
+ print("rectangle")
+
+#Q.3 determine the oldest and youngest people
+x=input("age of first people =")
+y=input("age of second people =")
+z=input("age of third people =")
+if x>=y and x>=z :
+ print("first is oldest")
+elif y>=x and y>=z: 
+ print("second is oldest")
+elif z>=x and z>=y :
+ print("third is oldest")
+else :
+ print("all are equal")
+
+#Q.4 which of the prize is won
+x=float(input("enter marks"))
+if x<=50 :
+ print("you have no prize")
+else:
+ if x<=150 :
+  print("congo you won wooden dog")
+ else :
+  if x<=180 :
+     print("congo you won a book")
+  else :
+   print("congo u win a choclate")
+
+
+#Q.5 total cost after getting discount
+quantity=int(input("entere the quantity"))
+if quantity*100>1000 :
+    
+    print("Cost is",((100*quantity)-(.1*100*quantity)))
+else:
+    print("cost is",quantity*100)
